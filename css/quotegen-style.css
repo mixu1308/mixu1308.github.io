@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400|Pacifico");
+body {
+  background-color: #303e48;
+}
+
+.footer {
+  width: 450px;
+  text-align: center;
+  margin: 10px auto 25px auto;
+  color: #fff;
+}
+.footer a {
+  color: #fff;
+}
+
+.title {
+  width: 450px;
+  margin: 3% auto 0% auto;
+  display: table;
+}
+.title h1 {
+  color: #fff;
+  font-family: 'Pacifico', cursive;
+}
+
+.quote-box {
+  background-color: #fff;
+  width: 450px;
+  padding: 40px 50px;
+  margin: 2% auto auto auto;
+  border-radius: 3px;
+  display: table;
+  font-family: 'Open Sans', sans-serif;
+}
+.quote-box .quote-text {
+  text-align: center;
+  width: 450px;
+  height: auto;
+  font-size: 1.9em;
+}
+.quote-box .quote-author {
+  width: 450px;
+  height: auto;
+  padding-top: 20px;
+  font-size: 1em;
+  text-align: right;
+}
+
+.buttons {
+  width: 450px;
+  margin: auto;
+  display: block;
+}
+.buttons .button {
+  height: 38px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #303e48;
+  font-size: 1em;
+  padding: 8px 16px 6px 18px;
+  margin-top: 30px;
+  opacity: 1;
+  cursor: pointer;
+}
+.buttons .button:hover {
+  opacity: 0.8;
+}
+.buttons .button#twitter {
+  float: left;
+}
+.buttons .button#new-quote {
+  float: right;
+}
